@@ -1,0 +1,37 @@
+{
+  "name": "color_flipper",
+  "version": "1.0.0",
+  "description": "This project flips color on click",
+  "main": "index.js",
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.8.0",
+    "stylelint-scss": "^3.17.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamezjaz/Color_Flipper.git"
+  },
+  "keywords": [
+    "color",
+    "flipper",
+    "javascript"
+  ],
+  "author": "James Chigozie Odufu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamezjaz/Color_Flipper/issues"
+  },
+  "homepage": "https://github.com/jamezjaz/Color_Flipper#readme"
+}
