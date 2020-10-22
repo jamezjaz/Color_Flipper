@@ -1,3 +1,5 @@
+const colors = ['red', 'blue', 'green', 'purple', 'yellow', '#f15025', 'indigo', 'black', 'rgba(255, 133, 200)'];
+
 const calculator = (() => {
   const header = document.getElementById('header');
   header.innerHTML = `
@@ -13,3 +15,4 @@ const calculator = (() => {
                     </nav>
                     `;
 })();
+
